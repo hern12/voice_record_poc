@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  <audio controls>
+  <source src="/uploads/myfiletosave.mp4" type="audio/ogg">
+  </audio>
+  <br/>
+  <button id="record_sound">Record</button>
+  <button id="record_sound_stop">Stop</button>
+  <p id="record_time"></p>
+
